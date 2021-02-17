@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="col-md-7">
+        <div class="social-feed-box">
+            <div class="well">
+                <form accept-charset="UTF-8" action="" method="POST">
+                    <textarea class="form-control" id="text" name="text" placeholder="Type in your message" rows="5"></textarea>
+                    <h6 class="pull-right" id="count_message"></h6>
+                    <input type="file" id="uploaded" 
+                    (change)="onFileSelected($event)"/>
+                    <img id="img-upload" style="width: 500px" src="{{selectedImg}}" />
+                    <button class="btn btn-info" type="submit">Postar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

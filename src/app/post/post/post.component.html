@@ -1,0 +1,42 @@
+<div class="container">
+        <div class="col col-md-7 align-self-center">     
+      
+      
+          <div class="social-feed-box">  
+            <div class="pull-right social-action dropdown">
+              <img src="../../../assets/images/img-3dots.png" style="max-width: 30px; cursor: pointer;">
+            </div>
+            <div class="social-avatar">
+              <a href="" class="pull-left">
+                <img alt="image" src="{{post.userImg}}">
+              </a>
+              <div class="media-body">
+                <a href="#">
+                  {{post.userName}}
+                </a>
+                <small class="text-muted">{{post.date}}</small>
+              </div>
+            </div>
+            <div class="social-body">
+                <img src="{{post.postImg}}" class="img-responsive" style="max-width:100%;">
+                <div class="social-body-txt">
+                    <p>
+                        <a href="#">{{post.userName}}</a>
+                        {{post.postTxt}}
+                    </p>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-white btn-xs"><img src="../../../assets/images/img-like.png" style="max-width: 30px;"></button>
+                    <button class="btn btn-white btn-xs"><img src="../../../assets/images/img-comment.png" style="max-width: 30px;"></button>
+                    <button class="btn btn-white btn-xs float-right"><img src="../../../assets/images/img-save.png" style="max-width: 30px;"></button>
+                </div>
+            </div>
+            <div class="social-footer">
+              <app-comment></app-comment>
+            </div>
+      
+          </div>
+      
+      
+    </div>
+  </div>
